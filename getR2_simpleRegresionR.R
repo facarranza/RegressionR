@@ -22,12 +22,13 @@ __copyright__ = '(C) 2019, Felipe Carranza'
 the context of a statistical model whose main purpose is to predict future results or test a hypothesis.
 The coefficient determines the quality of the model to replicate the results, and the proportion of 
 variation of the results that can be explained by the model
-Steel, R.G.D, and Torrie, J. H., Principles and Procedures of Statistics with Special Reference to the Biological Sciences., McGraw Hill, 1960, pp. 187, 287.)
+Steel, R.G.D, and Torrie, J. H., Principles and Procedures of Statistics with Special Reference 
+to the Biological Sciences., McGraw Hill, 1960, pp. 187, 287.)
 "
 
 #example of how to get R2 from simple regression
 
-#Dependent variable
+#Independent variable
 x=c(3,
     6,
     8,
@@ -38,7 +39,7 @@ x=c(3,
     20,
     22,
     26)
-#Independent variable
+#Dependent variable
 y=c(58,
     105,
     88,
